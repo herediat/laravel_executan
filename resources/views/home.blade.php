@@ -37,15 +37,6 @@
                     @endauth
                 </div>
             @endif
-
             <h1>Exo middleware</h1>
-            {{-- <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <form action="{{route('logout')}}" method="POST">
-                    @csrf
-                    <button>
-                        Déconnexion
-                    </button>
-                </form>
-            </div> --}}
     </body>
 </html>

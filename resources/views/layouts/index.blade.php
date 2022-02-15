@@ -8,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    @yield('content')
+    <div class="w-100 flex">
+        @include('partials.sidebar')
+        <div class="w-100 mt-10">
+            @yield('content')
+
+        </div>
+    </div>
 </body>
 </html>
