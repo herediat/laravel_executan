@@ -10,7 +10,7 @@
 <body>
     <div class="w-100 flex">
         @include('partials.sidebar')
-        <div class="w-100 mt-10">
+        <div class="w-full mt-10">
             @yield('content')
 
         </div>
